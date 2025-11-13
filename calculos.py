@@ -6,3 +6,6 @@ def area_triangulo(base, altura):
 #En la funciones destino dos variables pero solo se usa una, se elimina la variable innecesaria
 def area_cuadrado(lado):
     return lado * lado
+
+def area_circulo(radio):
+    return (3.1416*radio)**2

@@ -1,6 +1,6 @@
 #Importacion de archivos
 from Functions import suma
-from calculos import area_cuadrado, area_triangulo
+from calculos import area_cuadrado, area_triangulo, area_circulo
 
 #Programa
 print("PRACTICA GIT")
@@ -11,7 +11,8 @@ while menuActivo:
     print("1. Sumar")
     print("2. Area del triangulo")
     print("3. Area del cuadrado")
-    print("4. Salir")
+    print("4. Area del circulo")
+    print("5. Salir")
     #Se solicita que ingrese la opcion que va a elegir
     opcion = input("Ingrese el numero de la opcion: ")
     
@@ -34,8 +35,14 @@ while menuActivo:
         lado = float(input("Ingrese el lado del cuadrado: "))
         area = area_cuadrado(lado)
         print("El area del cuadrado es:", area)
-        
+    
     elif opcion == "4":
+        #Solicitud de datos para calcular el area del circulo
+        radio = float(input("Ingrese el lado del circulo: "))
+        area = area_circulo(radio)
+        print("El area del circulo es:", area)
+   
+    elif opcion == "5":
         #Con esta opcion se sale del programa
         print("Saliendo del programa...")
     break
