@@ -8,4 +8,4 @@ def area_cuadrado(lado):
     return lado * lado
 
 def area_circulo(radio):
-    return (3.1416*radio)**2
+    return 3.1416*(radio**2)
