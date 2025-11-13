@@ -3,7 +3,7 @@ from Functions import suma
 from calculos import area_cuadrado, area_triangulo, area_circulo
 
 #Programa
-print("PRACTICA GIT")
+print("PRACTICA GIT - 13-11-2025")
 #Se realiza un menu para verifica las funciones
 menuActivo = True
 while menuActivo:
